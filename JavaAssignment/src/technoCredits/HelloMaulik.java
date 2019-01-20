@@ -1,8 +1,8 @@
 package technoCredits;
 
-public class TestCheck {
+public class HelloMaulik {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome to Git Demo");
+		System.out.println("Hello Maulik");
 	}
 }
