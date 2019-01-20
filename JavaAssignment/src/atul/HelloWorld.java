@@ -1,7 +1,7 @@
 package atul;
-public class TestCheck {
+public class HelloWorld {
 
 	public static void main(String[] args) {
-		System.out.println("Welcome to the world of Git");
+		System.out.println("Welcome to the world of Git Demo");
 	}
 }
