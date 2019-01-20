@@ -1,5 +1,5 @@
 //WAP to print the sum (addition), multiply, subtract, divide and remainder of two numbers given by user
-package assignment20jan;
+package atul;
 
 public class CalculationQ1 {
 
