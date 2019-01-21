@@ -1,4 +1,4 @@
-package arpita;
+package arpit;
 public class TestCheck {
 
 	public static void main(String[] args) {
