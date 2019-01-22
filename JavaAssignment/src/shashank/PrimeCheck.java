@@ -27,4 +27,4 @@ public class PrimeCheck
 	{
 		System.out.println("Sum of prime numbers between (including both) "+Integer.parseInt(args[0])+" and "+Integer.parseInt(args[1])+" is : "+new PrimeCheck().primeCheck(Integer.parseInt(args[0]), Integer.parseInt(args[1])));
 	}
-};
+}
