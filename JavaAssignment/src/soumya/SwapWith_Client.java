@@ -5,7 +5,7 @@ package soumya;
 
 public class SwapWith_Client {
 	public static void main(String[] args) {
-		SwapWithout_Service o1 = new SwapWithout_Service();
+		SwapWith_Service o1 = new SwapWith_Service();
 		o1.Swap();
 	}
 }
