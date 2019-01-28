@@ -6,14 +6,23 @@ public class Q4_PeriArea {
 		double length = Double.parseDouble(args[0]);
 		double width = Double.parseDouble(args[1]);
 		double radius = Double.parseDouble(args[2]);
-		double AreaR = length * width;
-		double PerimeterR = 2 * (length + width);
-		double AreaC = 3.14 * radius * radius;
-		double PerimeterC = 2 * 3.14 * radius;
+		Area(length, width, radius);
+		Perimeter(length, width, radius);
+	}
+
+	static void Area(double length, double width, double radius) {
+		double AreaR = length * width; // Area of rectangle
 		System.out.println("Area of Rectangle: " + AreaR);
-		System.out.println("Perimeter of Rectangle: " + PerimeterR);
+		double AreaC = 3.14 * radius * radius; // Area of circle
 		System.out.println("Area of Circle: " + AreaC);
-		System.out.println("Perimeter of Circle: " + PerimeterC);
 
 	}
+
+	static void Perimeter(double length, double width, double radius) {
+		double PerimeterR = 2 * (length + width);
+		System.out.println("Perimeter of Rectangle: " + PerimeterR);
+		double PerimeterC = 2 * 3.14 * radius;
+		System.out.println("Perimeter of Circle: " + PerimeterC);
+	}
+
 }
