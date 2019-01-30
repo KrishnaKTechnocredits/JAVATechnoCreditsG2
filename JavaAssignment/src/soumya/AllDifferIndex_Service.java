@@ -3,7 +3,6 @@ package soumya;
 import java.util.Scanner;
 
 public class AllDifferIndex_Service {
-	int diff = 0;
 	int arrOne[], arrTwo[];
 	int size;
 
