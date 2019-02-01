@@ -12,16 +12,23 @@ public class Q5_PrintSecondLargestNumber {
 	void FindSmallestLargestNumber(int num[])
 	{
 		int max=num[0],secMax=0;
-		for(int index=1;index<num.length;index++)
+		for(int i=1;i<num.length;i++)
 		{
-			if(max < num[index])
+			if(num[i]>max)
 			{
 				secMax=max;
-				max=num[index];
+				max=num[i];				
 			}
-			else
-				secMax=num[index];
 		}
-		System.out.println("Second largest number is: "+secMax);		
+		System.out.println(max +" is the largest number is an array");
+		
+		for(int i=1;i<num.length;i++)
+		{
+			if(num[i]<max)
+			{
+				secMax=num[i];
+				
+			}
+		}		
 	}
 }
