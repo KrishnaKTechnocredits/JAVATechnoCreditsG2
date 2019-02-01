@@ -3,8 +3,9 @@ package monali;
 import java.util.Scanner;
 
 public class InputOutputArrayInt {
+	Scanner sc = new Scanner(System.in);
 	int[] takeInputFromUser() {
-		Scanner sc = new Scanner(System.in);
+		
 		System.out.println("Enter size of elements: ");
 		int size = sc.nextInt();
 		int arr[] = new int[size];
@@ -16,5 +17,12 @@ public class InputOutputArrayInt {
 		return arr;
 
 	}
-
+	
+	int takeNumber()
+	{
+		System.out.println("Enter value : ");
+		int num=sc.nextInt();
+		return num;
+	}
+	
 }
