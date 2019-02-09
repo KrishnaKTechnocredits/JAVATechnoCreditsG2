@@ -2,7 +2,7 @@ package monali;
 
 import java.util.Scanner;
 
-public class AdditionClient {
+public class AdditionClient {   // client class of addition
 	public static void main(String[] args) {
 		Addition objAddition = new Addition();
 		objAddition.add(10, 25);
