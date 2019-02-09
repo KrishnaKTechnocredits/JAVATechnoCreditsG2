@@ -2,7 +2,7 @@ package monali;
 
 import java.util.Scanner;
 
-public class TestEmployee {
+public class TestEmployee {   //parent class of Employee class
 	
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);

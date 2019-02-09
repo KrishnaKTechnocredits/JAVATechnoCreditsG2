@@ -1,6 +1,6 @@
 package monali;
 
-public class Employee {
+public class Employee {   //methods calling from parent TestEmployee class
 	private int emp_Id;
 	private String emp_Name;
 	private int emp_Salary;
