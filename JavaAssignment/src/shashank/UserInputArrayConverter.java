@@ -27,12 +27,12 @@ public class UserInputArrayConverter
 		
 		for (int index=0; index<StringArr.length; index++)
 		{
-			StringArr[index]=sc.next();
+			StringArr[index]=sc.nextLine();
 		}
-		for (int index=0; index<StringArr.length; index++)
+		/*for (int index=0; index<StringArr.length; index++)
 		{
 			System.out.println(StringArr[index]);
-		}
+		}*/
 		//sc.close();
 		return StringArr;	
 	}	
