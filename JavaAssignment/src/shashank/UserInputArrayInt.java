@@ -6,7 +6,7 @@ import java.util.Scanner;
 //array from user defined values
 public class UserInputArrayInt 
 {
-	int[] takeUserInputArrayInt() 
+	static int[] takeUserInputArrayInt() 
 	{
 		System.out.println("Number of Integer values to be entered: ");
 		Scanner scanner1 = new Scanner(System.in);
