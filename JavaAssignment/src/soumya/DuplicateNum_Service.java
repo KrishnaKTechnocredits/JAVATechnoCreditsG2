@@ -15,8 +15,8 @@ public class DuplicateNum_Service {
 		for (int index = 0; index < arr.length; index++) {
 			arr[index] = sc.nextInt();
 		}
-		sc.close();
-		for (int index = 0; index < arr.length; index++) {
+    sc.close();
+    for (int index = 0; index < arr.length; index++) {
 			if (max < arr[index]) {
 				max = arr[index];
 			}
