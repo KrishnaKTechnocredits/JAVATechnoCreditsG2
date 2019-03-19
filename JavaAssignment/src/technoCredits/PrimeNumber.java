@@ -18,6 +18,7 @@ public class PrimeNumber {
 	 * 
 	 * @param args
 	 * @return void
+	 * 
 	 */
 	public static void main(String[] args) {
 		start = Integer.parseInt(args[0]);
